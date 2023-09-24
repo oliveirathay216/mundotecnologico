@@ -1,0 +1,137 @@
+body{
+    background-color: #ACB7F2;
+    margin: 0%;
+    font-family: sans-serif;
+    
+    }
+    /* background-attachment:fixed= fixar a imagem no cabeçalho quando rolar scroll*/
+    .cabeçalho{
+        background-image:url(imagens/researcher-using-transparent-digital-tablet-screen-futuristic-technology.jpg) ;
+        height: 800px;
+        background-size: cover;        
+        padding-top: 1px;
+        background-attachment: fixed; 
+    
+    
+    }
+    
+    .cabeçalho2{
+        /* background-color: aliceblue; */
+        margin: 100px auto 0 auto;
+        /* width: 10px; */
+        text-align: center;
+        color: white;
+        
+        
+        
+    }
+    
+    .cabeçalho2 h1{
+        font-size: 50px;
+        text-transform: uppercase;
+        text-shadow: 10px 10px rgba(#021859);
+        
+    }
+    /*O text-transform: uppercase; serve para deixar as letras de determinado elemento maiúsculas.*/
+    .cabeçalho2 a{
+        background-color:#021859 ;
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+        border-radius: 5px;   
+        text-transform: uppercase;
+    
+    }
+    
+    .cabeçalho2 a:hover{
+        background-color:white ;
+        color: #021859;
+        
+    
+    
+    
+    }
+    .cabeçalho nav ul{
+    /* background-color: aliceblue; */
+    margin: 25px 40px 0 0 ;
+    text-align: right;
+    
+    }
+    .cabeçalho nav ul li{
+        list-style-type: none;
+        display: inline-block;
+        margin-left: 20px;
+        text-transform: uppercase;     
+        letter-spacing: 3px;      
+        font-size: 15px;
+    
+        /*letter-spacing:  espaçamento de letras;*/
+    }
+    
+    .cabeçalho nav a{ 
+        color: white ;
+        text-decoration: none;
+        background-color:#021859 ;
+        padding: 10px;
+        border-radius: 5px;
+     
+    }
+    
+    .cabeçalho nav a:hover {
+        background-color: white;
+        color: #021859;
+    
+    }
+    
+    /* width: espaço entre a borda e o conteúdo na horizontal*/
+    main{
+        width: 80%;
+        margin: auto;
+    
+    }
+    
+    h2{
+        text-align: center;
+        background-color: #021859;
+        color: white;
+        margin-top: 0%;
+        
+      
+    
+    }
+    
+     article{
+        background-color: white;
+        padding: 15px;
+        text-align: justify;
+        word-spacing: 2px;
+        margin-top: 20px;
+        margin-bottom: 32px; /*espaçar um article do outro ou o bloco do par*/
+        
+    
+    }
+    
+    footer{
+        background-color: #021859;
+        color: white;
+        text-align: center;
+        
+    }
+    .img1{
+        float: left;
+        width: 80px;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .main{
+        padding: 50px;
+        width: 90px;
+        max-width: 800px;
+        min-width: 400px;
+    }
+    /* menu para aumentar a imagem quando passar o mouse(*/
+    .img-container :hover{
+        transform: scale(1.2);
+     
+    }
